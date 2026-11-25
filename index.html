@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV EL Enviro Tech | Solusi Teknologi Lingkungan & Pengolahan Air Limbah</title>
+    <meta name="description" content="CV EL Enviro Tech - Spesialis Konstruksi Fisik IPAL, Pengolahan Limbah B3 & Non-B3, Instalasi Listrik, serta Penyedia Unit STP/WTP/WWTP berstandar K3L.">
+
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        /* Custom scrollbar hiding for clean horizontal stepper on mobile */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        /* Subtle hero background pattern */
+        .hero-bg {
+            background-color: #09111E;
+            background-image:
+                radial-gradient(circle at 88% 12%, rgba(16, 185, 129, 0.16) 0%, transparent 45%),
+                radial-gradient(circle at 12% 88%, rgba(14, 165, 233, 0.18) 0%, transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased overflow-x-hidden selection:bg-emerald-600 selection:text-white">
+
+    <!-- ==================== 1. TOP BAR (DESKTOP ONLY) ==================== -->
+    <div class="hidden lg:block bg-slate-950 text-slate-400 text-xs border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-9 flex items-center justify-between">
+            <div class="flex items-center gap-6">
+                <span class="inline-flex items-center gap-1.5">
+                    <i class="fa-solid fa-certificate text-emerald-400"></i>
+                    <span>NIB Resmi OSS: <strong class="text-slate-200 font-mono">1907260057244</strong></span>
+                </span>
+                <span class="inline-flex items-center gap-1.5">
+                    <i class="fa-solid fa-shield-halved text-sky-400"></i>
+                    <span>SK Kemenkumham: <strong class="text-slate-200">AHU-0047450-AH.01.14 Tahun 2026</strong></span>
+                </span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="mailto:cvelenvirotech@gmail.com" class="hover:text-white transition inline-flex items-center gap-1.5">
+                    <i class="fa-regular fa-envelope text-sky-400"></i>
+                    <span>cvelenvirotech@gmail.com</span>
+                </a>
+                <a href="https://wa.me/6285694446026" target="_blank" rel="noopener" class="hover:text-emerald-400 transition inline-flex items-center gap-1.5">
+                    <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                    <span>0856-9444-6026 (Admin)</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== 2. STICKY RESPONSIVE NAVBAR ==================== -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/90">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-18 sm:h-20">
+                <!-- Brand Logo SVG -->
+                <a href="#beranda" class="flex items-center gap-3 shrink-0 group">
+                    <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center shadow-xs group-hover:border-emerald-300 transition">
+                        <svg viewBox="0 0 64 64" class="w-9 h-9 sm:w-10 sm:h-10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <!-- Leaf Arc -->
+                            <path d="M14 40C10 28 17 14 31 12C35 11.5 39 12 42 13.5" stroke="#16A34A" stroke-width="4" stroke-linecap="round"/>
+                            <path d="M41 13C44 8 51 7 55 9C55 14 51 19 45 19C42 19 40 16 41 13Z" fill="#22C55E"/>
+                            <!-- EL Monogram -->
+                            <text x="15" y="39" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="20" fill="#16A34A">E</text>
+                            <text x="31" y="39" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="20" fill="#0F172A">L</text>
+                            <!-- Water Waves -->
+                            <path d="M12 45C19 52 33 54 46 47C50 45 53 42 54 39" stroke="#0284C7" stroke-width="4" stroke-linecap="round"/>
+                            <path d="M18 51C26 56 38 56 48 50" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="leading-tight">
+                        <div class="font-display font-extrabold text-base sm:text-lg tracking-tight text-slate-900">
+                            CV <span class="text-emerald-600">EL</span> ENVIRO TECH
+                        </div>
+                        <div class="text-[10px] sm:text-[11px] font-semibold tracking-wider text-slate-500 uppercase">
+                            Solusi Teknologi Lingkungan
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-600">
+                    <a href="#beranda" class="hover:text-emerald-600 transition">Beranda</a>
+                    <a href="#tentang" class="hover:text-emerald-600 transition">Tentang Kami</a>
+                    <a href="#layanan" class="hover:text-emerald-600 transition">Bidang Usaha (KBLI)</a>
+                    <a href="#teknologi" class="hover:text-emerald-600 transition">Teknologi Biofilter</a>
+                    <a href="#legalitas" class="hover:text-emerald-600 transition">Legalitas</a>
+                    <a href="#kontak" class="hover:text-emerald-600 transition">Kontak</a>
+                </nav>
+
+                <!-- Primary CTA & Mobile Hamburger -->
+                <div class="flex items-center gap-2.5">
+                    <a href="#kontak" class="hidden sm:inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold px-4 sm:px-5 py-2.5 rounded-xl shadow-sm transition">
+                        <i class="fa-brands fa-whatsapp text-base"></i>
+                        <span>Konsultasi</span>
+                    </a>
+                    <button id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Buka Navigasi" class="lg:hidden w-11 h-11 rounded-xl border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 flex items-center justify-center transition">
+                        <i id="menu-icon" class="fa-solid fa-bars text-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-200 shadow-lg">
+            <div class="max-w-7xl mx-auto px-4 py-4 space-y-1.5">
+                <a href="#beranda" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700">Beranda</a>
+                <a href="#tentang" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700">Tentang Kami &amp; Pilar Mutu</a>
+                <a href="#layanan" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700">Bidang Usaha &amp; Layanan (KBLI)</a>
+                <a href="#teknologi" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700">Teknologi Biofilter Aerob – Anaerob</a>
+                <a href="#legalitas" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700">Legalitas &amp; Kepatuhan</a>
+                <a href="#kontak" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700">Kontak &amp; Penawaran</a>
+                <div class="pt-2">
+                    <a href="#kontak" class="mobile-nav-link w-full flex items-center justify-center gap-2 bg-emerald-600 text-white text-sm font-semibold py-3 rounded-xl">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>Konsultasi Proyek Sekarang</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== 3. BALANCED 2-COLUMN HERO SECTION ==================== -->
+    <section id="beranda" class="hero-bg text-white py-14 sm:py-20 lg:py-24 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+                
+                <!-- Left Column: 7 Cols -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-400/25 text-emerald-300 text-xs font-semibold">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                        <span>Mitra Konstruksi &amp; Pengolahan Air Limbah Terpadu</span>
+                    </div>
+
+                    <h1 class="font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl text-white leading-[1.18] tracking-tight">
+                        Rekayasa Sistem <span class="text-emerald-400">IPAL &amp; Pengolahan Limbah</span> Berstandar Baku Mutu
+                    </h1>
+
+                    <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl">
+                        <strong>CV EL Enviro Tech</strong> menyediakan solusi terintegrasi mulai dari pembangunan fisik IPAL &amp; <em>grease trap</em>, operasional pengolahan limbah B3 maupun non-B3, instalasi jaringan listrik, hingga pengadaan unit STP/WTP/WWTP untuk <strong>Puskesmas, Dapur MBG, gedung, dan industri</strong>.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-3.5 pt-1">
+                        <a href="#kontak" class="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm sm:text-base px-6 py-3.5 rounded-xl shadow-lg shadow-emerald-950/50 transition">
+                            <span>Ajukan Penawaran Proyek</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                        <a href="#layanan" class="inline-flex items-center justify-center gap-2 bg-slate-800/80 hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold text-sm sm:text-base px-6 py-3.5 rounded-xl transition">
+                            <span>Lihat Layanan &amp; KBLI</span>
+                        </a>
+                    </div>
+
+                    <!-- Clean Sector Strip -->
+                    <div class="pt-5 border-t border-slate-800/90 grid grid-cols-3 gap-4 max-w-lg">
+                        <div>
+                            <div class="text-xs text-slate-400">Fasilitas Kesehatan</div>
+                            <div class="text-sm font-bold text-white mt-0.5">Puskesmas &amp; Klinik</div>
+                        </div>
+                        <div>
+                            <div class="text-xs text-slate-400">Fasilitas Pangan</div>
+                            <div class="text-sm font-bold text-white mt-0.5">Dapur MBG &amp; Resto</div>
+                        </div>
+                        <div>
+                            <div class="text-xs text-slate-400">Komersial &amp; Publik</div>
+                            <div class="text-sm font-bold text-white mt-0.5">Gedung &amp; Industri</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: 5 Cols Executive Summary Card -->
+                <div class="lg:col-span-5">
+                    <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 sm:p-7 shadow-2xl space-y-5">
+                        <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+                            <div>
+                                <span class="text-[11px] font-bold uppercase tracking-wider text-sky-400">Ringkasan Profil</span>
+                                <h2 class="font-display font-bold text-lg text-white mt-0.5">CV EL ENVIRO TECH</h2>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-xs font-bold">
+                                K3L Verified
+                            </span>
+                        </div>
+
+                        <div class="space-y-3.5 text-sm">
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-emerald-500/15 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
+                                    <i class="fa-solid fa-trowel-bricks text-xs"></i>
+                                </div>
+                                <div>
+                                    <div class="font-semibold text-white">Konstruksi Sipil IPAL &amp; Grease Trap</div>
+                                    <div class="text-xs text-slate-400">Pembangunan baru &amp; rehabilitasi fisik (KBLI 42202)</div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-sky-500/15 text-sky-400 flex items-center justify-center shrink-0 mt-0.5">
+                                    <i class="fa-solid fa-water text-xs"></i>
+                                </div>
+                                <div>
+                                    <div class="font-semibold text-white">Operasional Limbah B3 &amp; Non-B3</div>
+                                    <div class="text-xs text-slate-400">Pengelolaan limbah medis &amp; domestik (KBLI 37022 &amp; 37021)</div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-amber-500/15 text-amber-400 flex items-center justify-center shrink-0 mt-0.5">
+                                    <i class="fa-solid fa-bolt text-xs"></i>
+                                </div>
+                                <div>
+                                    <div class="font-semibold text-white">Instalasi Jaringan Listrik &amp; Panel</div>
+                                    <div class="text-xs text-slate-400">Kelistrikan gedung &amp; sistem kontrol IPAL (KBLI 43211)</div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <div class="w-8 h-8 rounded-lg bg-indigo-500/15 text-indigo-400 flex items-center justify-center shrink-0 mt-0.5">
+                                    <i class="fa-solid fa-boxes-packing text-xs"></i>
+                                </div>
+                                <div>
+                                    <div class="font-semibold text-white">Pengadaan Perlengkapan &amp; Sanitasi</div>
+                                    <div class="text-xs text-slate-400">Unit STP/WTP, bakteri pengurai &amp; alat kebersihan (KBLI 46499)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+                            <span>NIB: <strong class="text-slate-200 font-mono">1907260057244</strong></span>
+                            <span>Kab. Bogor, Jawa Barat</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 4. TENTANG KAMI, VISI-MISI & 5 PILAR LAYANAN ==================== -->
+    <section id="tentang" class="py-16 sm:py-24 bg-white border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+            
+            <!-- Row 1: Sambutan Direktur & Visi Misi (Equal Height) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+                <!-- Sambutan Direktur (7 cols) -->
+                <div class="lg:col-span-7 bg-slate-50 border border-slate-200/90 rounded-2xl p-6 sm:p-8 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="inline-flex items-center gap-2 text-emerald-600 font-bold text-xs uppercase tracking-widest">
+                            <span class="w-6 h-0.5 bg-emerald-600"></span>
+                            <span>Tentang Perusahaan</span>
+                        </div>
+                        <h2 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900">
+                            Sambutan Direktur Utama
+                        </h2>
+                        <div class="space-y-3.5 text-sm sm:text-base text-slate-600 leading-relaxed">
+                            <p>
+                                <em>Assalamu’alaikum Warahmatullahi Wabarakatuh.</em> Puji syukur ke hadirat Tuhan Yang Maha Esa atas rahmat dan karunia-Nya. Di tengah pesatnya perkembangan infrastruktur dan meningkatnya kesadaran terhadap kelestarian lingkungan, kebutuhan akan pengelolaan air limbah yang handal menjadi prioritas utama bagi setiap instansi maupun pelaku usaha.
+                            </p>
+                            <p>
+                                Sebagai perusahaan penyedia barang dan jasa di bidang teknologi lingkungan, <strong>CV EL Enviro Tech</strong> bertekad menjadi mitra terkemuka di tingkat nasional dengan mengedepankan kualitas pekerjaan, kepatuhan regulasi, serta pelayanan purna jual yang bertanggung jawab. Kepuasan setiap pelanggan dan rekanan adalah komitmen utama dalam setiap langkah kerja kami.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-5 border-t border-slate-200 flex items-center justify-between">
+                        <div>
+                            <div class="font-display font-bold text-sm text-slate-900">Direktur Utama</div>
+                            <div class="text-xs text-slate-500">CV EL Enviro Tech</div>
+                        </div>
+                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-lg">
+                            Kontraktual &amp; Non-Kontraktual
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Visi & Misi (5 cols) -->
+                <div class="lg:col-span-5 bg-slate-900 text-white rounded-2xl p-6 sm:p-8 flex flex-col justify-between">
+                    <div class="space-y-6">
+                        <div>
+                            <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold uppercase tracking-wider mb-2.5">
+                                Visi Kami
+                            </span>
+                            <p class="font-display font-bold text-lg sm:text-xl text-white leading-snug">
+                                “Menjadi perusahaan terkemuka dengan kualitas terbaik.”
+                            </p>
+                        </div>
+
+                        <div class="border-t border-slate-800 pt-5 space-y-3">
+                            <span class="inline-block text-xs font-bold uppercase tracking-wider text-sky-400">
+                                Misi Perusahaan
+                            </span>
+                            <ul class="space-y-3 text-xs sm:text-sm text-slate-300 leading-relaxed">
+                                <li class="flex items-start gap-2.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-400 mt-1 shrink-0"></i>
+                                    <span>Mengembangkan kompetensi seluruh sumber daya manusia untuk memberikan dampak positif bagi keluarga dan masyarakat.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-400 mt-1 shrink-0"></i>
+                                    <span>Menjadi penyedia jasa dan produk dengan kualitas terbaik guna mencapai kepuasan pelanggan secara menyeluruh.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-400 mt-1 shrink-0"></i>
+                                    <span>Menjalankan amanah proyek secara jujur, transparan, dan penuh tanggung jawab teknis.</span>
+                                </li>
+                                <li class="flex items-start gap-2.5">
+                                    <i class="fa-solid fa-circle-check text-emerald-400 mt-1 shrink-0"></i>
+                                    <span>Menerapkan prinsip usaha yang adil dan bermanfaat bagi klien, pekerja, serta seluruh pemangku kepentingan.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2: 5 Pilar Kualitas Pelayanan -->
+            <div class="space-y-6">
+                <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-sky-600">Standar Kualitas Pelayanan</span>
+                        <h3 class="font-display font-bold text-xl sm:text-2xl text-slate-900 mt-1">
+                            5 Pilar Komitmen Mutu &amp; Garansi Purna Jual
+                        </h3>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-500">
+                        Tersedia skema kerja sama kontraktual maupun non-kontraktual.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+                    <div class="bg-white border border-slate-200 rounded-2xl p-5 h-full flex flex-col">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-3.5">
+                            <i class="fa-solid fa-warehouse"></i>
+                        </div>
+                        <h4 class="font-display font-bold text-sm text-slate-900">1. Tangibles</h4>
+                        <span class="text-[11px] font-semibold text-emerald-600 mb-2">Bukti Fisik</span>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Kesiapan fasilitas kantor, gudang, peralatan teknologi pengolahan air limbah, serta tim lapangan yang profesional.
+                        </p>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-2xl p-5 h-full flex flex-col">
+                        <div class="w-10 h-10 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center mb-3.5">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                        </div>
+                        <h4 class="font-display font-bold text-sm text-slate-900">2. Reliability</h4>
+                        <span class="text-[11px] font-semibold text-sky-600 mb-2">Kehandalan</span>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Pengerjaan akurat sesuai spesifikasi teknis, ketepatan jadwal serah terima, dan standar mutu yang konsisten.
+                        </p>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-2xl p-5 h-full flex flex-col">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-3.5">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h4 class="font-display font-bold text-sm text-slate-900">3. Responsiveness</h4>
+                        <span class="text-[11px] font-semibold text-emerald-600 mb-2">Ketanggapan</span>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Respon cepat dan solutif dalam pendampingan teknis, survei lokasi, maupun penanganan perawatan unit.
+                        </p>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-2xl p-5 h-full flex flex-col">
+                        <div class="w-10 h-10 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center mb-3.5">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                        </div>
+                        <h4 class="font-display font-bold text-sm text-slate-900">4. Empathy</h4>
+                        <span class="text-[11px] font-semibold text-sky-600 mb-2">Empati</span>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Pendekatan personal untuk menyesuaikan kapasitas dan anggaran proyek dengan kondisi nyata di lapangan klien.
+                        </p>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-2xl p-5 h-full flex flex-col sm:col-span-2 lg:col-span-1">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-3.5">
+                            <i class="fa-solid fa-shield-check"></i>
+                        </div>
+                        <h4 class="font-display font-bold text-sm text-slate-900">5. Assurance</h4>
+                        <span class="text-[11px] font-semibold text-emerald-600 mb-2">Jaminan &amp; Kepastian</span>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Legalitas lengkap, kepatuhan K3L, kompetensi engineering, serta garansi purna jual yang dapat dipertanggungjawabkan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== 5. BIDANG USAHA & LAYANAN (KBLI) + PRODUK ==================== -->
+    <section id="layanan" class="py-16 sm:py-24 bg-slate-50 border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header -->
+            <div class="max-w-3xl mx-auto text-center space-y-3">
+                <div class="inline-flex items-center gap-2 text-emerald-600 font-bold text-xs uppercase tracking-widest">
+                    <span class="w-6 h-0.5 bg-emerald-600"></span>
+                    <span>Cakupan Bidang Usaha Resmi</span>
+                    <span class="w-6 h-0.5 bg-emerald-600"></span>
+                </div>
+                <h2 class="font-display font-extrabold text-2xl sm:text-3xl lg:text-4xl text-slate-900">
+                    Layanan Konstruksi, Pengolahan Limbah &amp; Pengadaan
+                </h2>
+                <p class="text-sm sm:text-base text-slate-600">
+                    Seluruh layanan disusun selaras dengan klasifikasi baku lapangan usaha (KBLI) untuk mendukung pengadaan instansi kesehatan, dapur program MBG, gedung, dan industri.
+                </p>
+            </div>
+
+            <!-- Filter Pills -->
+            <div class="flex flex-wrap items-center justify-center gap-2 mt-8 mb-10" role="tablist" aria-label="Filter Bidang Usaha">
+                <button type="button" data-filter="all" class="kbli-tab active px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-slate-900 text-white shadow-xs transition">
+                    Semua Bidang
+                </button>
+                <button type="button" data-filter="konstruksi" class="kbli-tab px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-white text-slate-600 border border-slate-200 hover:border-emerald-500 hover:text-emerald-600 transition">
+                    Konstruksi IPAL
+                </button>
+                <button type="button" data-filter="operasional" class="kbli-tab px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-white text-slate-600 border border-slate-200 hover:border-emerald-500 hover:text-emerald-600 transition">
+                    Operasional Limbah
+                </button>
+                <button type="button" data-filter="elektrikal" class="kbli-tab px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-white text-slate-600 border border-slate-200 hover:border-emerald-500 hover:text-emerald-600 transition">
+                    Mekanikal &amp; Elektrikal
+                </button>
+                <button type="button" data-filter="pengadaan" class="kbli-tab px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-white text-slate-600 border border-slate-200 hover:border-emerald-500 hover:text-emerald-600 transition">
+                    Pengadaan &amp; Produk
+                </button>
+            </div>
+
+            <!-- Equal-Height Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Card 1: KBLI 42202 (Poin 1 & 4) -->
+                <article data-category="konstruksi" class="kbli-item bg-white border border-slate-200/90 rounded-2xl p-6 shadow-xs hover:shadow-md hover:border-emerald-400 transition h-full flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold font-mono">
+                                KBLI 42202
+                            </span>
+                            <div class="w-9 h-9 rounded-lg bg-emerald-600 text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-trowel-bricks"></i>
+                            </div>
+                        </div>
+                        <h3 class="font-display font-bold text-lg text-slate-900 leading-snug">
+                            Konstruksi Bangunan Fisik IPAL &amp; Grease Trap
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Pembangunan baru, pemasangan, maupun rehabilitasi bangunan sipil pengolahan air bersih dan air limbah secara menyeluruh.
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-600 pt-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-0.5 shrink-0"></i>
+                                <span><strong>Puskesmas &amp; Faskes:</strong> Pengadaan dan rehabilitasi konstruksi fisik unit IPAL.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-0.5 shrink-0"></i>
+                                <span><strong>Dapur Program MBG:</strong> Pembangunan fisik IPAL dan pemasangan <em>grease trap</em> (perangkap lemak) dapur.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pt-5 mt-5 border-t border-slate-100">
+                        <a href="#kontak" onclick="chooseService('Konstruksi Fisik IPAL & Grease Trap (KBLI 42202)')" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-600 hover:text-emerald-700">
+                            <span>Ajukan Penawaran Konstruksi</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 2: KBLI 37022 (Poin 3) -->
+                <article data-category="operasional" class="kbli-item bg-white border border-slate-200/90 rounded-2xl p-6 shadow-xs hover:shadow-md hover:border-amber-400 transition h-full flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-md bg-amber-50 text-amber-800 border border-amber-200 text-xs font-bold font-mono">
+                                KBLI 37022
+                            </span>
+                            <div class="w-9 h-9 rounded-lg bg-slate-900 text-amber-400 flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-biohazard"></i>
+                            </div>
+                        </div>
+                        <h3 class="font-display font-bold text-lg text-slate-900 leading-snug">
+                            Treatment &amp; Pembuangan Air Limbah Berbahaya (B3)
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Layanan operator pihak ketiga untuk mengelola operasional sistem pengolahan air limbah yang mengandung karakteristik Bahan Berbahaya dan Beracun (B3).
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-600 pt-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-0.5 shrink-0"></i>
+                                <span><strong>Limbah Medis Puskesmas:</strong> Pengelolaan operasional IPAL fasilitas kesehatan sesuai standar K3L.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-0.5 shrink-0"></i>
+                                <span><strong>Monitoring Baku Mutu:</strong> Pengawasan proses disinfeksi dan kualitas efluen berkala.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pt-5 mt-5 border-t border-slate-100">
+                        <a href="#kontak" onclick="chooseService('Operasional Limbah Berbahaya / B3 (KBLI 37022)')" class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-700 hover:text-amber-800">
+                            <span>Konsultasi Operator Limbah B3</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 3: KBLI 37021 (Poin 5) -->
+                <article data-category="operasional" class="kbli-item bg-white border border-slate-200/90 rounded-2xl p-6 shadow-xs hover:shadow-md hover:border-sky-400 transition h-full flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-md bg-sky-50 text-sky-700 border border-sky-200 text-xs font-bold font-mono">
+                                KBLI 37021
+                            </span>
+                            <div class="w-9 h-9 rounded-lg bg-sky-600 text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-water"></i>
+                            </div>
+                        </div>
+                        <h3 class="font-display font-bold text-lg text-slate-900 leading-snug">
+                            Treatment &amp; Pembuangan Air Limbah Tidak Berbahaya
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Pengoperasian, perawatan rutin, dan pembersihan instalasi serta jaringan saluran pembuangan air limbah non-B3 (dapur, domestik, dan industri).
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-600 pt-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-0.5 shrink-0"></i>
+                                <span><strong>Operasional IPAL Dapur MBG:</strong> Perawatan instalasi limbah non-B3 dan pembersihan lemak rutin.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-0.5 shrink-0"></i>
+                                <span><strong>Proses Fisika, Kimia &amp; Biologi:</strong> Penyaringan, sedimentasi, aerasi, dan pemeliharaan saluran.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pt-5 mt-5 border-t border-slate-100">
+                        <a href="#kontak" onclick="chooseService('Operasional & Perawatan Limbah Non-B3 (KBLI 37021)')" class="inline-flex items-center gap-1.5 text-xs font-bold text-sky-600 hover:text-sky-700">
+                            <span>Ajukan Kontrak Perawatan</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 4: KBLI 43211 (Poin 9) -->
+                <article data-category="elektrikal" class="kbli-item bg-white border border-slate-200/90 rounded-2xl p-6 shadow-xs hover:shadow-md hover:border-emerald-400 transition h-full flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold font-mono">
+                                KBLI 43211
+                            </span>
+                            <div class="w-9 h-9 rounded-lg bg-emerald-600 text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                        </div>
+                        <h3 class="font-display font-bold text-lg text-slate-900 leading-snug">
+                            Instalasi Jaringan Listrik &amp; Panel Kontrol
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Pembangunan, pemasangan, perbaikan, dan pemeliharaan jaringan kelistrikan pada bangunan gedung maupun infrastruktur pengolahan air.
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-600 pt-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-0.5 shrink-0"></i>
+                                <span><strong>Panel Otomatis IPAL/WTP:</strong> Instalasi daya pompa transfer, blower aerasi, dan dosing pump.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-0.5 shrink-0"></i>
+                                <span><strong>Kelistrikan Gedung &amp; Sipil:</strong> Jaringan tegangan rendah bangunan hunian dan non-hunian.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pt-5 mt-5 border-t border-slate-100">
+                        <a href="#kontak" onclick="chooseService('Instalasi Jaringan Listrik & Panel Kontrol (KBLI 43211)')" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-600 hover:text-emerald-700">
+                            <span>Konsultasi Instalasi Listrik</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 5: KBLI 46499 (Poin 10) -->
+                <article data-category="pengadaan" class="kbli-item bg-white border border-slate-200/90 rounded-2xl p-6 shadow-xs hover:shadow-md hover:border-indigo-400 transition h-full flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-md bg-indigo-50 text-indigo-700 border border-indigo-200 text-xs font-bold font-mono">
+                                KBLI 46499
+                            </span>
+                            <div class="w-9 h-9 rounded-lg bg-indigo-600 text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-boxes-packing"></i>
+                            </div>
+                        </div>
+                        <h3 class="font-display font-bold text-lg text-slate-900 leading-snug">
+                            Perdagangan Perlengkapan &amp; Kimia Pembersih
+                        </h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Perdagangan besar berbagai alat kebersihan, bahan kimia pembersih rumah tangga/fasilitas, serta perlengkapan penunjang operasional lainnya.
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-600 pt-3 border-t border-slate-100">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-0.5 shrink-0"></i>
+                                <span><strong>Alat Kebersihan &amp; Sanitasi:</strong> Perlengkapan kebersihan untuk gedung, dapur, dan fasilitas umum.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-emerald-600 mt-0.5 shrink-0"></i>
+                                <span><strong>Bahan Kimia Pembersih:</strong> Deterjen, pembersih lantai, serta perlengkapan pendidikan &amp; operasional.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pt-5 mt-5 border-t border-slate-100">
+                        <a href="#kontak" onclick="chooseService('Pengadaan Perlengkapan & Kimia Pembersih (KBLI 46499)')" class="inline-flex items-center gap-1.5 text-xs font-bold text-indigo-600 hover:text-indigo-700">
+                            <span>Minta Katalog Pengadaan</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 6: Produk & Engineering Package -->
+                <article data-category="pengadaan" class="kbli-item bg-slate-900 text-white border border-slate-800 rounded-2xl p-6 shadow-xs hover:shadow-md transition h-full flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="px-2.5 py-1 rounded-md bg-sky-500/20 text-sky-300 border border-sky-400/30 text-xs font-bold">
+                                Divisi Produk &amp; Engineering
+                            </span>
+                            <div class="w-9 h-9 rounded-lg bg-sky-600 text-white flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-gears"></i>
+                            </div>
+                        </div>
+                        <h3 class="font-display font-bold text-lg text-white leading-snug">
+                            Unit STP / WTP / WWTP &amp; Bakteri Pengolah Limbah
+                        </h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            Penyediaan paket unit pengolahan air lengkap beserta layanan rekayasa dari hulu ke hilir.
+                        </p>
+                        <ul class="space-y-2 text-xs text-slate-300 pt-3 border-t border-slate-800">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-dot text-emerald-400 mt-1 shrink-0 text-[10px]"></i>
+                                <span><strong>Produk:</strong> STP Package, IPAL Biofilter, WWTP, WTP, Filter Tank, Nozzle, Media Filter &amp; Bakteri Pengurai.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-circle-dot text-sky-400 mt-1 shrink-0 text-[10px]"></i>
+                                <span><strong>Layanan:</strong> Design &amp; Equipment Engineering, Trial Commissioning, Training &amp; Upgrade.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pt-5 mt-5 border-t border-slate-800">
+                        <a href="#kontak" onclick="chooseService('Pembelian Unit STP / WTP / WWTP / Bakteri IPAL')" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-400 hover:text-emerald-300">
+                            <span>Tanya Spesifikasi Unit</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 6. INTERACTIVE TEKNOLOGI BIOFILTER AEROB - ANAEROB ==================== -->
+    <section id="teknologi" class="py-16 sm:py-24 bg-white border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Header -->
+            <div class="max-w-3xl mx-auto text-center space-y-3">
+                <div class="inline-flex items-center gap-2 text-sky-600 font-bold text-xs uppercase tracking-widest">
+                    <span class="w-6 h-0.5 bg-sky-600"></span>
+                    <span>Teknologi yang Kami Kembangkan</span>
+                    <span class="w-6 h-0.5 bg-sky-600"></span>
+                </div>
+                <h2 class="font-display font-extrabold text-2xl sm:text-3xl lg:text-4xl text-slate-900">
+                    Sistem Biofilter Aerob – Anaerob
+                </h2>
+                <p class="text-sm sm:text-base text-slate-600">
+                    Kombinasi proses biofilter anaerob dan aerasi kontak (<em>Contact Aeration</em>) yang efektif menurunkan beban organik, deterjen, dan amonia melalui 6 tahapan terukur.
+                </p>
+            </div>
+
+            <!-- Horizontal Step Selector (Scrollable cleanly on mobile) -->
+            <div class="mt-10">
+                <div class="flex lg:grid lg:grid-cols-6 gap-2.5 overflow-x-auto no-scrollbar pb-2" role="tablist" aria-label="Tahapan Proses Biofilter">
+                    <button type="button" data-step="0" class="bio-step-tab active shrink-0 min-w-[165px] lg:min-w-0 text-left p-3.5 rounded-xl border-2 border-emerald-600 bg-emerald-50/70 transition">
+                        <span class="text-[11px] font-bold text-emerald-700 block">Tahap 01</span>
+                        <span class="font-display font-bold text-xs sm:text-sm text-slate-900 block mt-0.5">Bar Screen</span>
+                    </button>
+
+                    <button type="button" data-step="1" class="bio-step-tab shrink-0 min-w-[165px] lg:min-w-0 text-left p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 transition">
+                        <span class="text-[11px] font-bold text-slate-500 block">Tahap 02</span>
+                        <span class="font-display font-bold text-xs sm:text-sm text-slate-800 block mt-0.5">Pengendap Awal</span>
+                    </button>
+
+                    <button type="button" data-step="2" class="bio-step-tab shrink-0 min-w-[165px] lg:min-w-0 text-left p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 transition">
+                        <span class="text-[11px] font-bold text-slate-500 block">Tahap 03</span>
+                        <span class="font-display font-bold text-xs sm:text-sm text-slate-800 block mt-0.5">Biofilter Anaerob</span>
+                    </button>
+
+                    <button type="button" data-step="3" class="bio-step-tab shrink-0 min-w-[165px] lg:min-w-0 text-left p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 transition">
+                        <span class="text-[11px] font-bold text-slate-500 block">Tahap 04</span>
+                        <span class="font-display font-bold text-xs sm:text-sm text-slate-800 block mt-0.5">Biofilter Aerob</span>
+                    </button>
+
+                    <button type="button" data-step="4" class="bio-step-tab shrink-0 min-w-[165px] lg:min-w-0 text-left p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 transition">
+                        <span class="text-[11px] font-bold text-slate-500 block">Tahap 05</span>
+                        <span class="font-display font-bold text-xs sm:text-sm text-slate-800 block mt-0.5">Pengendap Akhir</span>
+                    </button>
+
+                    <button type="button" data-step="5" class="bio-step-tab shrink-0 min-w-[165px] lg:min-w-0 text-left p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 transition">
+                        <span class="text-[11px] font-bold text-slate-500 block">Tahap 06</span>
+                        <span class="font-display font-bold text-xs sm:text-sm text-slate-800 block mt-0.5">Kontaktor Khlor</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Structured Detail Panel + Clean SVG Schematic -->
+            <div class="mt-6 bg-slate-900 text-white rounded-2xl p-6 sm:p-8 lg:p-10 shadow-xl">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    
+                    <!-- Left: SVG Schematic Flow Indicator (5 Cols) -->
+                    <div class="lg:col-span-5 bg-slate-950/70 border border-slate-800 rounded-xl p-5">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+                            <span class="font-semibold text-slate-300">Skema Aliran Pengolahan</span>
+                            <span id="schematic-counter" class="font-mono text-emerald-400 font-bold">01 / 06</span>
+                        </div>
+                        <svg viewBox="0 0 360 150" class="w-full h-auto" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram Alur Biofilter Aerob Anaerob">
+                            <!-- Connecting Pipe Line -->
+                            <line x1="25" y1="65" x2="335" y2="65" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+                            
+                            <!-- Node 1 -->
+                            <g id="svg-node-0">
+                                <rect x="14" y="43" width="38" height="44" rx="8" fill="#10B981" stroke="#34D399" stroke-width="2"/>
+                                <text x="33" y="69" text-anchor="middle" fill="#09111E" font-family="Inter, sans-serif" font-weight="800" font-size="12">01</text>
+                                <text x="33" y="106" text-anchor="middle" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="9" font-weight="600">Screen</text>
+                            </g>
+
+                            <!-- Node 2 -->
+                            <g id="svg-node-1">
+                                <rect x="69" y="43" width="38" height="44" rx="8" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+                                <text x="88" y="69" text-anchor="middle" fill="#CBD5E1" font-family="Inter, sans-serif" font-weight="700" font-size="12">02</text>
+                                <text x="88" y="106" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Sed. Awal</text>
+                            </g>
+
+                            <!-- Node 3 -->
+                            <g id="svg-node-2">
+                                <rect x="124" y="43" width="38" height="44" rx="8" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+                                <text x="143" y="69" text-anchor="middle" fill="#CBD5E1" font-family="Inter, sans-serif" font-weight="700" font-size="12">03</text>
+                                <text x="143" y="106" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Anaerob</text>
+                            </g>
+
+                            <!-- Node 4 -->
+                            <g id="svg-node-3">
+                                <rect x="179" y="43" width="38" height="44" rx="8" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+                                <text x="198" y="69" text-anchor="middle" fill="#CBD5E1" font-family="Inter, sans-serif" font-weight="700" font-size="12">04</text>
+                                <text x="198" y="106" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Aerob</text>
+                            </g>
+
+                            <!-- Node 5 -->
+                            <g id="svg-node-4">
+                                <rect x="234" y="43" width="38" height="44" rx="8" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+                                <text x="253" y="69" text-anchor="middle" fill="#CBD5E1" font-family="Inter, sans-serif" font-weight="700" font-size="12">05</text>
+                                <text x="253" y="106" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Sed. Akhir</text>
+                            </g>
+
+                            <!-- Node 6 -->
+                            <g id="svg-node-5">
+                                <rect x="289" y="43" width="38" height="44" rx="8" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+                                <text x="308" y="69" text-anchor="middle" fill="#CBD5E1" font-family="Inter, sans-serif" font-weight="700" font-size="12">06</text>
+                                <text x="308" y="106" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="9">Khlorinasi</text>
+                            </g>
+
+                            <!-- Return Sludge Loop Indicator (5 -> 4) -->
+                            <path d="M253 43 V22 H198 V38" stroke="#0EA5E9" stroke-width="1.5" stroke-dasharray="3 3"/>
+                            <polygon points="198,42 195,36 201,36" fill="#0EA5E9"/>
+                            <text x="225" y="16" text-anchor="middle" fill="#38BDF8" font-family="Inter, sans-serif" font-size="8" font-weight="600">Sirkulasi Lumpur Aktif</text>
+                        </svg>
+                    </div>
+
+                    <!-- Right: Stage Description Panel (7 Cols) -->
+                    <div class="lg:col-span-7 space-y-5">
+                        <div class="space-y-2.5">
+                            <span id="bio-badge" class="inline-block px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-400/30 text-emerald-300 text-xs font-bold">
+                                Tahap 01 &bull; Pra-Pengolahan Fisik
+                            </span>
+                            <h3 id="bio-title" class="font-display font-bold text-xl sm:text-2xl text-white">
+                                Saringan Kasar (Bar Screen)
+                            </h3>
+                            <p id="bio-desc" class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                                Air limbah dialirkan terlebih dahulu melalui saringan kasar (<em>bar screen</em>) untuk menyaring sampah padat berukuran besar seperti daun, kertas, plastik, dan sisa kotoran agar tidak menyumbat aliran pipa maupun merusak pompa.
+                            </p>
+                        </div>
+
+                        <div class="bg-slate-800/70 border border-slate-700/80 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                            <div class="text-xs sm:text-sm">
+                                <span class="text-sky-400 font-semibold block">Hasil Proses:</span>
+                                <span id="bio-result" class="text-slate-200">Air limbah bebas sampah padat kasar sebelum masuk bak pengendap.</span>
+                            </div>
+                            <div class="flex items-center gap-2 shrink-0">
+                                <button type="button" id="bio-prev-btn" class="px-3.5 py-2 rounded-lg bg-slate-700 hover:bg-slate-600 text-white text-xs font-semibold transition">
+                                    &larr; Sebelumnya
+                                </button>
+                                <button type="button" id="bio-next-btn" class="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition">
+                                    Berikutnya &rarr;
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== 7. LEGALITAS & KEPATUHAN PERUSAHAAN (4-COLUMN GRID) ==================== -->
+    <section id="legalitas" class="py-16 sm:py-24 bg-slate-50 border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-3 mb-12">
+                <div class="inline-flex items-center gap-2 text-emerald-600 font-bold text-xs uppercase tracking-widest">
+                    <span class="w-6 h-0.5 bg-emerald-600"></span>
+                    <span>Kredibilitas Administrasi &amp; Tender</span>
+                    <span class="w-6 h-0.5 bg-emerald-600"></span>
+                </div>
+                <h2 class="font-display font-extrabold text-2xl sm:text-3xl lg:text-4xl text-slate-900">
+                    Legalitas &amp; Kepatuhan Perusahaan
+                </h2>
+                <p class="text-sm sm:text-base text-slate-600">
+                    CV EL Enviro Tech beroperasi dengan dokumen perizinan berusaha berbasis risiko dan perpajakan yang sah sesuai peraturan perundang-undangan.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- 1. NIB -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs h-full flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="w-11 h-11 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-file-shield"></i>
+                        </div>
+                        <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Perizinan OSS RBA</div>
+                        <h3 class="font-display font-bold text-base text-slate-900">Nomor Induk Berusaha (NIB)</h3>
+                        <p class="font-mono text-sm font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1.5 rounded-lg inline-block">
+                            1907260057244
+                        </p>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-4 pt-3 border-t border-slate-100">
+                        Status Penanaman Modal: <strong>PMDN</strong> &bull; Diterbitkan Kementerian Investasi/BKPM.
+                    </p>
+                </div>
+
+                <!-- 2. Akta & SK Kemenkumham -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs h-full flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="w-11 h-11 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-scale-balanced"></i>
+                        </div>
+                        <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Pengesahan Badan Usaha</div>
+                        <h3 class="font-display font-bold text-base text-slate-900">SK Kemenkumham &amp; Akta</h3>
+                        <p class="text-xs font-bold text-sky-800 bg-sky-50 border border-sky-200 px-3 py-1.5 rounded-lg">
+                            AHU-0047450-AH.01.14 Tahun 2026
+                        </p>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-4 pt-3 border-t border-slate-100">
+                        Akta Notaris <strong>No. 105</strong> tanggal 14 Juli 2026 (Notaris Dhani Satria Wijaya, S.H., M.Kn).
+                    </p>
+                </div>
+
+                <!-- 3. NPWP & SKT Pajak -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs h-full flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="w-11 h-11 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-landmark"></i>
+                        </div>
+                        <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Administrasi Perpajakan</div>
+                        <h3 class="font-display font-bold text-base text-slate-900">NPWP &amp; SKT Wajib Pajak</h3>
+                        <p class="font-mono text-sm font-bold text-indigo-700 bg-indigo-50 border border-indigo-200 px-3 py-1.5 rounded-lg inline-block">
+                            1000000010400077
+                        </p>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-4 pt-3 border-t border-slate-100">
+                        Terdaftar resmi pada <strong>KPP Pratama Ciawi</strong> (SKT No. S-44701/SKT-WP-CT/KPP.3308/2026).
+                    </p>
+                </div>
+
+                <!-- 4. Komitmen K3L -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs h-full flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="w-11 h-11 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <div class="text-xs font-bold uppercase tracking-wider text-slate-400">Standar Lingkungan</div>
+                        <h3 class="font-display font-bold text-base text-slate-900">Komitmen Mandiri K3L</h3>
+                        <p class="text-xs font-bold text-emerald-800 bg-emerald-50 border border-emerald-200 px-3 py-1.5 rounded-lg inline-block">
+                            K3L &amp; SPPL Terverifikasi
+                        </p>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-4 pt-3 border-t border-slate-100">
+                        Pernyataan Mandiri Keselamatan, Keamanan, Kesehatan &amp; Pelestarian Fungsi Lingkungan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 8. KONTAK & PERMINTAAN PENAWARAN ==================== -->
+    <section id="kontak" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+                
+                <!-- Left Column: Contact Info & Clean Location Card (5 Cols) -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="space-y-3">
+                        <div class="inline-flex items-center gap-2 text-emerald-600 font-bold text-xs uppercase tracking-widest">
+                            <span class="w-6 h-0.5 bg-emerald-600"></span>
+                            <span>Hubungi Kami</span>
+                        </div>
+                        <h2 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900">
+                            Konsultasi &amp; Permintaan Penawaran
+                        </h2>
+                        <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+                            Tim kami siap membantu kebutuhan survei teknis, perhitungan RAB pembangunan IPAL, kontrak operator limbah, maupun pengadaan unit.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3.5">
+                        <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200/90 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                                <i class="fa-brands fa-whatsapp text-lg"></i>
+                            </div>
+                            <div class="text-sm">
+                                <div class="font-bold text-slate-900">Telepon &amp; WhatsApp Resmi</div>
+                                <div class="mt-1 space-y-0.5 text-slate-600">
+                                    <div>Admin Utama: <a href="https://wa.me/6285694446026" target="_blank" rel="noopener" class="font-bold text-emerald-700 hover:underline">0856-9444-6026</a></div>
+                                    <div>Kontak Kantor: <a href="https://wa.me/6285862707813" target="_blank" rel="noopener" class="font-semibold text-slate-800 hover:underline">0858-6270-7813</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200/90 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center shrink-0">
+                                <i class="fa-regular fa-envelope text-base"></i>
+                            </div>
+                            <div class="text-sm">
+                                <div class="font-bold text-slate-900">Email Perusahaan</div>
+                                <a href="mailto:cvelenvirotech@gmail.com" class="text-sky-700 font-semibold hover:underline mt-0.5 block">
+                                    cvelenvirotech@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Clean Embedded Location Card -->
+                        <div class="rounded-2xl border border-slate-200 overflow-hidden bg-slate-50">
+                            <div class="p-4 flex items-start gap-3.5">
+                                <div class="w-10 h-10 rounded-xl bg-slate-900 text-white flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="text-sm">
+                                    <div class="font-bold text-slate-900">Alamat Kantor Pusat</div>
+                                    <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+                                        Aurora View, Desa/Kelurahan Ciherang Pondok, Kec. Caringin, Kab. Bogor, Jawa Barat 16730
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="bg-slate-200/70 px-4 py-2.5 border-t border-slate-200 flex items-center justify-between text-xs">
+                                <span class="text-slate-600 font-medium">Kec. Caringin, Kab. Bogor</span>
+                                <a href="https://maps.google.com/?q=Ciherang+Pondok+Caringin+Kabupaten+Bogor+16730" target="_blank" rel="noopener" class="font-bold text-emerald-700 hover:text-emerald-800 inline-flex items-center gap-1">
+                                    <span>Buka Google Maps</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Structured WhatsApp Quote Form (7 Cols) -->
+                <div class="lg:col-span-7">
+                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+                        <div class="pb-5 mb-6 border-b border-slate-200">
+                            <h3 class="font-display font-bold text-xl text-slate-900">
+                                Formulir Permintaan Penawaran (Request Quote)
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-500 mt-1">
+                                Lengkapi detail di bawah untuk langsung mengirim ringkasan kebutuhan proyek ke WhatsApp Admin.
+                            </p>
+                        </div>
+
+                        <form id="quote-form" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="input-name" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                                        Nama Lengkap *
+                                    </label>
+                                    <input type="text" id="input-name" required placeholder="Nama Anda" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                                </div>
+
+                                <div>
+                                    <label for="input-org" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                                        Nama Instansi / Perusahaan *
+                                    </label>
+                                    <input type="text" id="input-org" required placeholder="Puskesmas / Dapur MBG / PT..." class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="input-service" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                                        Layanan / Bidang KBLI *
+                                    </label>
+                                    <select id="input-service" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                                        <option value="Konstruksi Fisik IPAL & Grease Trap (KBLI 42202)">Konstruksi Fisik IPAL &amp; Grease Trap (KBLI 42202)</option>
+                                        <option value="Operasional Limbah Berbahaya / B3 (KBLI 37022)">Operasional Limbah Berbahaya / B3 (KBLI 37022)</option>
+                                        <option value="Operasional & Perawatan Limbah Non-B3 (KBLI 37021)">Operasional &amp; Perawatan Limbah Non-B3 (KBLI 37021)</option>
+                                        <option value="Instalasi Jaringan Listrik & Panel Kontrol (KBLI 43211)">Instalasi Jaringan Listrik &amp; Panel Kontrol (KBLI 43211)</option>
+                                        <option value="Pengadaan Perlengkapan & Kimia Pembersih (KBLI 46499)">Pengadaan Perlengkapan &amp; Kimia Pembersih (KBLI 46499)</option>
+                                        <option value="Pembelian Unit STP / WTP / WWTP / Bakteri IPAL">Pembelian Unit STP / WTP / WWTP / Bakteri IPAL</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="input-location" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                                        Lokasi Proyek *
+                                    </label>
+                                    <input type="text" id="input-location" required placeholder="Kota / Kabupaten lokasi proyek" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="input-notes" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                                    Catatan Kebutuhan &amp; Estimasi Kapasitas *
+                                </label>
+                                <textarea id="input-notes" rows="4" required placeholder="Jelaskan singkat kebutuhan Anda (contoh: pembangunan baru IPAL Puskesmas kapasitas 5 m3/hari, pemasangan grease trap dapur MBG, atau kontrak operator rutin)..." class="w-full px-4 py-3 rounded-xl bg-white border border-slate-300 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"></textarea>
+                            </div>
+
+                            <div class="pt-2 flex flex-col sm:flex-row gap-3">
+                                <button type="submit" class="flex-1 inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm px-6 py-3.5 rounded-xl shadow-sm transition">
+                                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                                    <span>Kirim ke WhatsApp Admin</span>
+                                </button>
+                                <button type="button" id="btn-preview-wa" class="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 font-semibold text-sm px-5 py-3.5 rounded-xl transition">
+                                    <i class="fa-regular fa-file-lines"></i>
+                                    <span>Pratinjau Pesan</span>
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- Message Preview Box (Replaces any alert) -->
+                        <div id="wa-preview-box" class="hidden mt-5 p-4 rounded-xl bg-slate-900 text-slate-200 border border-slate-700 space-y-2.5 text-xs">
+                            <div class="flex items-center justify-between border-b border-slate-700 pb-2">
+                                <span class="font-bold text-emerald-400">Format Pesan WhatsApp:</span>
+                                <button type="button" id="btn-copy-wa" class="text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center gap-1">
+                                    <i class="fa-regular fa-copy"></i>
+                                    <span>Salin Pesan</span>
+                                </button>
+                            </div>
+                            <pre id="wa-preview-content" class="whitespace-pre-wrap font-sans leading-relaxed text-slate-300"></pre>
+                            <div id="wa-copy-status" class="hidden text-emerald-400 font-semibold">
+                                <i class="fa-solid fa-check"></i> Pesan berhasil disalin!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 9. CLEAN DARK SLATE FOOTER ==================== -->
+    <footer class="bg-slate-950 text-slate-400 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-10 border-b border-slate-800/80">
+                
+                <!-- Brand & Legal Identifiers -->
+                <div class="md:col-span-5 space-y-3.5">
+                    <div class="font-display font-extrabold text-lg text-white">
+                        CV <span class="text-emerald-400">EL</span> ENVIRO TECH
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm">
+                        Solusi Teknologi Lingkungan &mdash; Konstruksi Fisik IPAL, Pengolahan Air Limbah B3 &amp; Non-B3, Instalasi Listrik, serta Penyedia Unit WTP/WWTP.
+                    </p>
+                    <div class="flex flex-wrap gap-2 pt-1 text-[11px] font-mono text-slate-300">
+                        <span class="px-2.5 py-1 rounded bg-slate-900 border border-slate-800">NIB: 1907260057244</span>
+                        <span class="px-2.5 py-1 rounded bg-slate-900 border border-slate-800">NPWP: 1000000010400077</span>
+                    </div>
+                </div>
+
+                <!-- Quick Navigation -->
+                <div class="md:col-span-3 space-y-3">
+                    <h4 class="font-display font-bold text-xs uppercase tracking-wider text-white">Navigasi</h4>
+                    <ul class="space-y-2 text-xs sm:text-sm">
+                        <li><a href="#beranda" class="hover:text-emerald-400 transition">Beranda</a></li>
+                        <li><a href="#tentang" class="hover:text-emerald-400 transition">Tentang Kami</a></li>
+                        <li><a href="#layanan" class="hover:text-emerald-400 transition">Bidang Usaha (KBLI)</a></li>
+                        <li><a href="#teknologi" class="hover:text-emerald-400 transition">Teknologi Biofilter</a></li>
+                        <li><a href="#legalitas" class="hover:text-emerald-400 transition">Legalitas &amp; Kepatuhan</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Summary -->
+                <div class="md:col-span-4 space-y-3">
+                    <h4 class="font-display font-bold text-xs uppercase tracking-wider text-white">Kantor &amp; Kontak</h4>
+                    <ul class="space-y-2.5 text-xs sm:text-sm">
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-location-dot text-emerald-400 mt-1 shrink-0"></i>
+                            <span>Aurora View, Ciherang Pondok, Kec. Caringin, Kab. Bogor, Jawa Barat 16730</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i class="fa-brands fa-whatsapp text-emerald-400 shrink-0"></i>
+                            <span>0856-9444-6026 / 0858-6270-7813</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i class="fa-regular fa-envelope text-sky-400 shrink-0"></i>
+                            <span>cvelenvirotech@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
+                <p>&copy; <span id="current-year"></span> CV EL Enviro Tech. Hak Cipta Dilindungi.</p>
+                <p>SK Kemenkumham: AHU-0047450-AH.01.14 Tahun 2026 &bull; Standar K3L</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Quick Button -->
+    <a href="https://wa.me/6285694446026?text=Halo%20Admin%20CV%20EL%20Enviro%20Tech,%20saya%20ingin%20konsultasi%20layanan." target="_blank" rel="noopener" aria-label="Chat WhatsApp Admin" class="fixed bottom-5 right-5 z-40 w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-950/30 flex items-center justify-center text-2xl transition transform hover:scale-105">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- ==================== INTERACTIVE SCRIPTS ==================== -->
+    <script>
+        // Dynamic Copyright Year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // 1. Mobile Navigation Drawer Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        function toggleMobileMenu(forceClose = false) {
+            const isHidden = mobileMenu.classList.contains('hidden');
+            if (forceClose || !isHidden) {
+                mobileMenu.classList.add('hidden');
+                mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            } else {
+                mobileMenu.classList.remove('hidden');
+                mobileMenuBtn.setAttribute('aria-expanded', 'true');
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-xmark');
+            }
+        }
+
+        mobileMenuBtn.addEventListener('click', () => toggleMobileMenu());
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => toggleMobileMenu(true));
+        });
+
+        // 2. KBLI Filter Tabs
+        const kbliTabs = document.querySelectorAll('.kbli-tab');
+        const kbliItems = document.querySelectorAll('.kbli-item');
+
+        kbliTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                kbliTabs.forEach(t => {
+                    t.classList.remove('bg-slate-900', 'text-white', 'shadow-xs');
+                    t.classList.add('bg-white', 'text-slate-600', 'border', 'border-slate-200');
+                });
+                tab.classList.remove('bg-white', 'text-slate-600', 'border', 'border-slate-200');
+                tab.classList.add('bg-slate-900', 'text-white', 'shadow-xs');
+
+                const selected = tab.getAttribute('data-filter');
+                kbliItems.forEach(item => {
+                    if (selected === 'all' || item.getAttribute('data-category') === selected) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Pre-select Service in Quote Form
+        function chooseService(serviceValue) {
+            const select = document.getElementById('input-service');
+            if (!select) return;
+            for (let i = 0; i < select.options.length; i++) {
+                if (select.options[i].value === serviceValue) {
+                    select.selectedIndex = i;
+                    break;
+                }
+            }
+        }
+
+        // 3. Interactive 6-Stage Biofilter Aerob-Anaerob Stepper
+        const bioStages = [
+            {
+                badge: "Tahap 01 • Pra-Pengolahan Fisik",
+                title: "Saringan Kasar (Bar Screen)",
+                desc: "Air limbah dialirkan terlebih dahulu melalui saringan kasar (bar screen) untuk menyaring sampah padat berukuran besar seperti daun, kertas, plastik, dan sisa kotoran agar tidak menyumbat aliran pipa maupun merusak pompa.",
+                result: "Air limbah bebas sampah padat kasar sebelum masuk bak pengendap."
+            },
+            {
+                badge: "Tahap 02 • Sedimentasi Primer",
+                title: "Bak Pengendap Awal",
+                desc: "Air limbah dialirkan ke bak pengendap awal untuk mengendapkan partikel lumpur, pasir, dan kotoran tersuspensi. Unit ini juga berfungsi sebagai pengontrol aliran serta bak pengurai senyawa organik padat (sludge digestion) dan penampung lumpur.",
+                result: "Partikel lumpur & pasir mengendap; aliran menuju reaktor biologis lebih stabil."
+            },
+            {
+                badge: "Tahap 03 • Penguraian Anoxic",
+                title: "Bak Kontaktor Anaerob (Anoxic)",
+                desc: "Air limpasan dialirkan ke bak kontaktor anaerob (dapat dibuat lebih dari satu kompartemen) yang diisi media plastik atau kerikil/batu split. Mikroorganisme anaerobik dan fakultatif membentuk lapisan biofilm di permukaan media untuk menguraikan zat organik kompleks.",
+                result: "Penurunan beban organik (BOD/COD) secara biologis tanpa kebutuhan energi aerasi."
+            },
+            {
+                badge: "Tahap 04 • Contact Aeration",
+                title: "Bak Kontaktor Aerob (Aerasi Kontak)",
+                desc: "Air limbah mengalir ke bak kontaktor aerob berisi media biofilter sambil dihembus udara secara kontinu. Mikroorganisme tersuspensi maupun yang menempel di media menguraikan sisa zat organik, deterjen, dan mempercepat nitrifikasi sehingga amonia turun drastis.",
+                result: "Zat organik, deterjen, dan amonia terurai optimal melalui aerasi kontak."
+            },
+            {
+                badge: "Tahap 05 • Klarifikasi & Sirkulasi Lumpur",
+                title: "Bak Pengendap Akhir & Sirkulasi Lumpur",
+                desc: "Air dari bak aerasi dialirkan ke bak pengendap akhir agar lumpur aktif yang kaya mikroorganisme mengendap. Lumpur aktif dipompa kembali ke bagian inlet bak aerasi melalui pompa sirkulasi lumpur untuk menjaga populasi mikroba tetap optimal.",
+                result: "Air jernih (overflow) terpisah dari lumpur aktif dan siap menuju disinfeksi."
+            },
+            {
+                badge: "Tahap 06 • Disinfeksi Akhir",
+                title: "Bak Kontaktor Khlor (Khlorinasi)",
+                desc: "Air limpasan jernih dari bak pengendap akhir dialirkan ke bak kontaktor khlor untuk dikontakkan dengan senyawa khlor terukur guna membunuh mikroorganisme patogen sebelum air olahan dilepas secara aman ke saluran umum.",
+                result: "Efluen air olahan higienis, aman dari patogen, dan memenuhi baku mutu."
+            }
+        ];
+
+        let activeBioIndex = 0;
+        const bioStepTabs = document.querySelectorAll('.bio-step-tab');
+        const bioBadge = document.getElementById('bio-badge');
+        const bioTitle = document.getElementById('bio-title');
+        const bioDesc = document.getElementById('bio-desc');
+        const bioResult = document.getElementById('bio-result');
+        const schematicCounter = document.getElementById('schematic-counter');
+        const bioPrevBtn = document.getElementById('bio-prev-btn');
+        const bioNextBtn = document.getElementById('bio-next-btn');
+
+        function updateBioStepper(index) {
+            activeBioIndex = index;
+            const stage = bioStages[index];
+
+            bioBadge.textContent = stage.badge;
+            bioTitle.textContent = stage.title;
+            bioDesc.textContent = stage.desc;
+            bioResult.textContent = stage.result;
+            schematicCounter.textContent = `0${index + 1} / 06`;
+
+            // Update Tabs
+            bioStepTabs.forEach((tab, idx) => {
+                const subLabel = tab.querySelector('span:first-child');
+                const mainLabel = tab.querySelector('span:last-child');
+                if (idx === index) {
+                    tab.classList.remove('border', 'border-slate-200', 'bg-slate-50');
+                    tab.classList.add('border-2', 'border-emerald-600', 'bg-emerald-50/70');
+                    subLabel.classList.remove('text-slate-500');
+                    subLabel.classList.add('text-emerald-700');
+                    mainLabel.classList.remove('text-slate-800');
+                    mainLabel.classList.add('text-slate-900');
+                    tab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                } else {
+                    tab.classList.remove('border-2', 'border-emerald-600', 'bg-emerald-50/70');
+                    tab.classList.add('border', 'border-slate-200', 'bg-slate-50');
+                    subLabel.classList.remove('text-emerald-700');
+                    subLabel.classList.add('text-slate-500');
+                    mainLabel.classList.remove('text-slate-900');
+                    mainLabel.classList.add('text-slate-800');
+                }
+            });
+
+            // Update SVG Schematic Nodes
+            for (let i = 0; i < 6; i++) {
+                const group = document.getElementById(`svg-node-${i}`);
+                if (!group) continue;
+                const rect = group.querySelector('rect');
+                const numText = group.querySelectorAll('text')[0];
+                const nameText = group.querySelectorAll('text')[1];
+
+                if (i === index) {
+                    rect.setAttribute('fill', '#10B981');
+                    rect.setAttribute('stroke', '#34D399');
+                    numText.setAttribute('fill', '#09111E');
+                    nameText.setAttribute('fill', '#FFFFFF');
+                    nameText.setAttribute('font-weight', '700');
+                } else {
+                    rect.setAttribute('fill', '#1E293B');
+                    rect.setAttribute('stroke', '#475569');
+                    numText.setAttribute('fill', '#CBD5E1');
+                    nameText.setAttribute('fill', '#94A3B8');
+                    nameText.setAttribute('font-weight', '400');
+                }
+            }
+        }
+
+        bioStepTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                updateBioStepper(parseInt(tab.getAttribute('data-step'), 10));
+            });
+        });
+
+        bioPrevBtn.addEventListener('click', () => {
+            const prev = (activeBioIndex - 1 + bioStages.length) % bioStages.length;
+            updateBioStepper(prev);
+        });
+
+        bioNextBtn.addEventListener('click', () => {
+            const next = (activeBioIndex + 1) % bioStages.length;
+            updateBioStepper(next);
+        });
+
+        // 4. WhatsApp Quote Form Formatter
+        const quoteForm = document.getElementById('quote-form');
+        const btnPreviewWa = document.getElementById('btn-preview-wa');
+        const waPreviewBox = document.getElementById('wa-preview-box');
+        const waPreviewContent = document.getElementById('wa-preview-content');
+        const btnCopyWa = document.getElementById('btn-copy-wa');
+        const waCopyStatus = document.getElementById('wa-copy-status');
+
+        function generateWaMessage() {
+            const name = document.getElementById('input-name').value.trim() || '-';
+            const org = document.getElementById('input-org').value.trim() || '-';
+            const service = document.getElementById('input-service').value;
+            const location = document.getElementById('input-location').value.trim() || '-';
+            const notes = document.getElementById('input-notes').value.trim() || '-';
+
+            return `Halo Admin *CV EL Enviro Tech*,\n` +
+                   `Saya ingin mengajukan konsultasi / permintaan penawaran proyek dengan detail:\n\n` +
+                   `• *Nama:* ${name}\n` +
+                   `• *Instansi/Perusahaan:* ${org}\n` +
+                   `• *Layanan (KBLI):* ${service}\n` +
+                   `• *Lokasi Proyek:* ${location}\n` +
+                   `• *Kebutuhan:* ${notes}\n\n` +
+                   `Mohon informasi lebih lanjut. Terima kasih.`;
+        }
+
+        btnPreviewWa.addEventListener('click', () => {
+            waPreviewContent.textContent = generateWaMessage();
+            waPreviewBox.classList.remove('hidden');
+            waCopyStatus.classList.add('hidden');
+        });
+
+        btnCopyWa.addEventListener('click', () => {
+            const temp = document.createElement('textarea');
+            temp.value = waPreviewContent.textContent;
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp);
+
+            waCopyStatus.classList.remove('hidden');
+            setTimeout(() => waCopyStatus.classList.add('hidden'), 2500);
+        });
+
+        quoteForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const text = encodeURIComponent(generateWaMessage());
+            window.open(`https://wa.me/6285694446026?text=${text}`, '_blank', 'noopener');
+        });
+    </script>
+</body>
+</html>
